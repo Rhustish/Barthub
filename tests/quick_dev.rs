@@ -4,7 +4,7 @@ use anyhow::{Ok, Result};
 async fn quick_dev() ->Result<()>{
 
     let hc = httpc_test::new_client("http://localhost:3000")?;
-    hc.do_get("/hw").await?.print().await?;
+    hc.do_get("/hc").await?.print().await?;
 
     Ok(())
 }

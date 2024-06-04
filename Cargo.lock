@@ -742,6 +742,8 @@ dependencies = [
  "axum",
  "dotenv",
  "httpc-test",
+ "serde",
+ "serde_json",
  "tokio",
 ]
 
