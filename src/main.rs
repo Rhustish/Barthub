@@ -1,7 +1,7 @@
-use std::env;
 pub mod rtrz;
 pub mod ctrlz;
 
+use std::env;
 use crate::rtrz::api_router::app_router;
 
 #[tokio::main]
